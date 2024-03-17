@@ -1,0 +1,24 @@
+﻿<Window x:Class="datetime_screensaver.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:datetime_screensaver"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525"
+        Background="Black"
+        Name="Window">
+    <!--#FF0D4054-->
+        <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.25*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Viewbox Grid.Row="0" Margin="100,30,100,5">
+            <TextBlock Name="Date" Foreground="White" Text="Загрузка..." TextAlignment="Center" VerticalAlignment="Center"/>
+        </Viewbox>
+        <Viewbox Grid.Row="1" Margin="100,10">
+            <TextBlock Name="Time" Foreground="White" Text="Загрузка..." TextAlignment="Center" VerticalAlignment="Center"/>
+        </Viewbox>
+    </Grid>
+</Window>
