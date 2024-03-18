@@ -117,8 +117,8 @@ namespace datetime_screensaver
             }
             else
             {
-                Date.Foreground = new SolidColorBrush(Colors.Black);
-                Time.Foreground = new SolidColorBrush(Colors.Black);
+                Date.Foreground = new SolidColorBrush(Colors.Gold);
+                Time.Foreground = new SolidColorBrush(Colors.Gold);
                 Window.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FF0D4054"));
             }
         }
