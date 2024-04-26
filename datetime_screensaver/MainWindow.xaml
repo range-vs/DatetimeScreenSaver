@@ -10,17 +10,17 @@
         Name="Window">
         <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="0.3*"></RowDefinition>
-            <RowDefinition Height="0.7*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
-        <Viewbox Grid.Row="0" Margin="100,30,100,5">
-            <TextBlock Name="Date" Foreground="White" Text="Загрузка..." TextAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+        <Viewbox Grid.Row="0" Margin="200,30,200,5">
+            <TextBlock Name="Date" Foreground="White" Text="Загрузка..." TextAlignment="Center" VerticalAlignment="Center"/>
         </Viewbox>
-        <Viewbox Grid.Row="1" Margin="70,30,70,5">
-            <TextBlock Name="Weather" Foreground="White" Text="Загрузка..." TextAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+        <Viewbox Grid.Row="1">
+            <TextBlock Name="Weather" Foreground="White" Text="Загрузка..." TextAlignment="Center" VerticalAlignment="Center"/>
         </Viewbox>
-        <Viewbox Grid.Row="2" Margin="100,10">
+        <Viewbox Grid.Row="2" >
             <TextBlock Name="Time" Foreground="White" Text="Загрузка..." TextAlignment="Center" VerticalAlignment="Center"/>
         </Viewbox>
     </Grid>
